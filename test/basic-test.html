@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../web-component-tester/browser.js"></script>
+    <script src="../../test-fixture/test-fixture-mocha.js"></script>
+
+    <!-- Step 1: import the element to test -->
+    <link rel="import" href="../ll-page-header.html">
+    <link rel="import" href="../../test-fixture/test-fixture.html">
+  </head>
+  <body>
+
+
+  <test-fixture id="fixture">
+    <template>
+      <ll-page-header page-title="Review Booking Details" sub-page-title="Select a cancelled booking to review" prev-title="Cancelled Bookings" page-detail="Booking information for: Bob Saget"></ll-page-header>
+    </template>
+  </test-fixture>
+
+  <script src="scripts/basic-test.js"></script>
+
+  </body>
+</html>
